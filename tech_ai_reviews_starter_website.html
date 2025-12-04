@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tech & AI Reviews — Your Guide to Gadgets & Software</title>
+  <meta name="description" content="In-depth tech & AI reviews, how-tos, and software guides. Honest gadget reviews, benchmarks, and buying advice." />
+  <meta name="author" content="Your Name" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tech & AI Reviews — Your Guide to Gadgets & Software" />
+  <meta property="og:description" content="In-depth tech & AI reviews, how-tos, and software guides. Honest gadget reviews, benchmarks, and buying advice." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=1200&q=80" />
+
+  <!-- Basic styling (responsive, lightweight) -->
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#3b82f6;--glass: rgba(255,255,255,0.04)}
+    *{box-sizing:border-box}
+    body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial; margin:0; background:linear-gradient(180deg,#0b1220 0%, #071026 100%); color:#e6eef6; line-height:1.5}
+    a{color:var(--accent); text-decoration:none}
+    header{padding:20px 24px; display:flex; align-items:center; justify-content:space-between; gap:12px}
+    .brand{display:flex; gap:12px; align-items:center}
+    .logo{width:44px; height:44px; border-radius:8px; background:linear-gradient(135deg,#06b6d4,#3b82f6); display:flex; align-items:center; justify-content:center; font-weight:700}
+    nav ul{display:flex; gap:14px; list-style:none; margin:0; padding:0}
+    .container{max-width:1100px; margin:24px auto; padding:0 18px}
+    .hero{display:grid; grid-template-columns:1fr 360px; gap:20px; align-items:start}
+    .card{background:var(--card); padding:18px; border-radius:12px; box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .muted{color:var(--muted)}
+
+    /* Post grid */
+    .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-top:18px}
+    .post-card img{width:100%; height:160px; object-fit:cover; border-radius:8px}
+    .post-card h3{margin:10px 0 6px 0}
+    .post-meta{font-size:13px; color:var(--muted)}
+
+    /* Sidebar */
+    .sidebar .subscribe{display:flex; gap:8px}
+    input[type="email"]{flex:1; padding:10px; border-radius:8px; border:1px solid rgba(255,255,255,0.06); background:transparent; color:inherit}
+    button.btn{padding:10px 14px; border-radius:8px; border:0; background:var(--accent); color:white; cursor:pointer}
+
+    footer{padding:28px 18px; text-align:center; color:var(--muted)}
+
+    /* small screens */
+    @media (max-width:880px){.hero{grid-template-columns:1fr;}.logo{width:40px;height:40px}}
+
+    /* tiny search */
+    .search{display:flex; gap:8px; align-items:center}
+    .search input{padding:8px 10px; border-radius:8px; border:1px solid rgba(255,255,255,0.05); background:transparent; color:inherit}
+
+    /* Review badge */
+    .rating{display:inline-flex; gap:6px; align-items:center; background:var(--glass); padding:6px 8px; border-radius:999px; font-weight:600}
+  </style>
+</head>
+<body>
+  <header class="card">
+    <div class="brand">
+      <div class="logo">TA</div>
+      <div>
+        <div style="font-weight:700; font-size:18px">Tech & AI Reviews</div>
+        <div class="muted" style="font-size:12px">Gadgets • Software • AI • How‑tos</div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#guides">Guides</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="card">
+          <h1 style="margin:0 0 8px 0">Honest reviews & practical AI guides</h1>
+          <p class="muted">Benchmarks, buying advice, setup tutorials and software deep dives — for engineers, creators & curious readers.</p>
+
+          <!-- Featured review -->
+          <article style="margin-top:14px; display:flex; gap:12px; align-items:center">
+            <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=900&q=60" alt="featured" style="width:220px; height:140px; object-fit:cover; border-radius:8px">
+            <div>
+              <div class="rating">⭐ 4.5 <span class="muted" style="font-weight:400; margin-left:6px">(2025) — Smartphone XYZ Review</span></div>
+              <h2 style="margin:10px 0 6px 0">Smartphone XYZ — AI Camera That Actually Works?</h2>
+              <p class="muted" style="margin:0">Our in-depth camera tests, battery drain real-world numbers, and pros/cons for buyers.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Post list -->
+        <div class="grid" style="margin-top:18px">
+          <!-- Post 1 -->
+          <article class="post-card card">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=60" alt="post1">
+            <div style="padding-top:8px">
+              <div class="post-meta">Reviews • Dec 1, 2025</div>
+              <h3>Top 5 AI Tools for Image Generation (2025)</h3>
+              <p class="muted">How we tested them, costs, and best use-cases for creators.</p>
+            </div>
+          </article>
+
+          <!-- Post 2 -->
+          <article class="post-card card">
+            <img src="https://images.unsplash.com/photo-1518600506278-4e8ef466b810?w=800&q=60" alt="post2">
+            <div style="padding-top:8px">
+              <div class="post-meta">Guides • Nov 24, 2025</div>
+              <h3>Beginner's Guide to Running LLMs Locally</h3>
+              <p class="muted">A step-by-step to set up a local inference environment on modest hardware.</p>
+            </div>
+          </article>
+
+          <!-- Post 3 -->
+          <article class="post-card card">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=60" alt="post3">
+            <div style="padding-top:8px">
+              <div class="post-meta">Gadgets • Oct 30, 2025</div>
+              <h3>Best Budget Laptops for Developers (2025)</h3>
+              <p class="muted">Performance per rupee: benchmarks and real‑world suggestions.</p>
+            </div>
+          </article>
+        </div>
+
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="card">
+          <h4 style="margin:0 0 8px 0">Subscribe</h4>
+          <p class="muted" style="margin:0 0 12px 0">Get weekly reviews, earning guides, and AI tool roundups.</p>
+          <div class="subscribe">
+            <input type="email" placeholder="Your email" aria-label="email" id="email-input">
+            <button class="btn" id="subscribe-btn">Subscribe</button>
+          </div>
+          <div class="muted" style="font-size:13px; margin-top:10px">No spam. Unsubscribe anytime.</div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h4 style="margin:0 0 8px 0">Categories</h4>
+          <ul class="muted" style="padding-left:16px; margin:0">
+            <li>AI Tools</li>
+            <li>Mobile Reviews</li>
+            <li>Software & Apps</li>
+            <li>Hardware & Gadgets</li>
+            <li>How‑tos</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h4 style="margin:0 0 8px 0">Affiliate Picks</h4>
+          <p class="muted" style="margin:0">Curated gadgets with best value — support the site if you buy via links.</p>
+          <ul class="muted" style="padding-left:16px; margin-top:8px">
+            <li><a href="#">Noise-cancelling Headphones — Best Buy</a></li>
+            <li><a href="#">Portable SSD — Fast & Cheap</a></li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <!-- SEO-rich sample content and structured data -->
+    <section id="reviews" style="margin-top:24px">
+      <div class="card">
+        <h2 style="margin-top:0">Featured Reviews</h2>
+        <p class="muted">Latest hands-on reviews with scores, pros/cons, and buying advice.</p>
+
+        <!-- Example review block (can be templated) -->
+        <article aria-label="review-example" style="margin-top:12px; padding:12px; background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent); border-radius:8px">
+          <h3 style="margin:0">Smartphone XYZ — Overall Score: 4.5/5</h3>
+          <div class="muted" style="margin:6px 0">Camera • Battery • AI Features • Value</div>
+          <ol class="muted" style="padding-left:18px">
+            <li>Pros: Excellent AI camera processing, bright OLED panel</li>
+            <li>Cons: Average battery with heavy AI use, limited charger in box</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <!-- Guides -->
+    <section id="guides" style="margin-top:18px">
+      <div class="card">
+        <h2 style="margin-top:0">Guides & Tutorials</h2>
+        <p class="muted">Practical how-to articles to help you use tools and set up environments.</p>
+        <ul class="muted" style="padding-left:18px">
+          <li>How to fine-tune small LLMs on your laptop</li>
+          <li>Optimize Android builds for battery life</li>
+          <li>Must-have VS Code extensions for embedded developers</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" style="margin-top:18px">
+      <div class="card">
+        <h2 style="margin-top:0">About</h2>
+        <p class="muted">Tech & AI Reviews is a small independent site focused on honest tests, usable how‑tos, and buying advice. Author: <strong>Your Name</strong> — embedded software engineer & gadget nerd.</p>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:18px">
+      <div class="card">
+        <h2 style="margin-top:0">Contact</h2>
+        <p class="muted">For PR, sponsorships or tips: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="muted">© 2025 Tech & AI Reviews — Built with a static starter template. Made in India.</div>
+    </div>
+  </footer>
+
+  <!-- Structured data for Search engines (example review schema) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Tech & AI Reviews",
+    "url": "https://yourdomain.example/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://yourdomain.example/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <script>
+    // Minimal client-side behaviour: subscribe button and simple client-side search
+    document.getElementById('subscribe-btn').addEventListener('click', function(){
+      const email = document.getElementById('email-input').value.trim();
+      if(!email || !email.includes('@')){ alert('Please enter a valid email'); return }
+      // In production, send to your newsletter provider (Mailchimp, Buttondown, ConvertKit) - placeholder
+      alert('Thanks! (This is a demo — connect a newsletter provider to collect emails)');
+    });
+
+    // Small helper: client-side search over titles
+    function simpleSearch(q){
+      const posts = Array.from(document.querySelectorAll('.post-card h3'));
+      const lower = q.toLowerCase();
+      posts.forEach(h3 => {
+        const card = h3.closest('.post-card');
+        card.style.display = h3.textContent.toLowerCase().includes(lower) ? '' : 'none';
+      });
+    }
+
+    // keyboard shortcut: press / to focus email for demo
+    document.addEventListener('keydown', (e)=>{ if(e.key==='/'){ e.preventDefault(); document.getElementById('email-input').focus() } });
+  </script>
+
+</body>
+</html>
